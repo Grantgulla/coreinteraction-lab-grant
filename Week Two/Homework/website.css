@@ -1,0 +1,105 @@
+body{
+	background-color: black
+}
+
+.header	{
+	font-family:Arial black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	color:white;
+	text-align: center;
+
+}
+
+.animals {
+	font-family: Arial;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+.work{
+	font-family:arial black;
+	text-align: left;
+	color:white;
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+.lyrics {
+font-family:Arial black;
+	text-align: center;
+	color:teal;
+	font-size: 18px;
+	font-style: bold;
+	padding-bottom: 5px;
+}
+
+.place.desert{
+	font-family:arial black;
+	text-align: left;
+	color:white;
+	margin-left: 20px;
+	font-size: 30px;
+
+}
+
+.place-footer.desert{
+	font-family:arial;
+	text-align: left;
+	color:white;
+	margin-left: 20px;
+	margin-right: 10px;
+	padding: 20px;
+
+}
+
+.place.jungle{
+	font-family:arial black;
+	text-align: left;
+	color:white;
+	margin-left: 20px;
+	font-size: 30px;
+
+
+}
+
+.place-footer.jungle{
+	font-family:arial;
+	text-align: left;
+	color:white;
+	margin-left: 20px;
+	margin-right: 10px;
+	padding: 20px;
+
+}
+
+
+
+
+.quote {
+      font-size: 200px;
+      color: black;
+      font-style: bold;
+    }
+
+ a:link {
+ 	color: grey; 
+ 	background-color:transparent; 
+ 	text-decoration:none
+ }
+ 
+a:visited {color:grey; background-color:transparent; text-decoration:none}
+
+a:hover   {color:teal ; 
+	background-color:transparent;
+	font-size: 40px;
+
+}
+
+
+
+.lyrics:hover{
+	font-style: italic;
+}
+
