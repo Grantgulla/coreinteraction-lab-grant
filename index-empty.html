@@ -1,0 +1,73 @@
+<!doctype html>
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+    }
+    .first-line {
+      font-family: "Trebuchet MS",Arial,sans-serif;
+      color: white;
+      font-size:9px;
+  
+      padding: 5px;
+    }
+    .second-line {
+      font-family: "Trebuchet MS",Arial,sans-serif;
+      color: white;
+      font-size:10px;
+      
+      padding: 5px;
+    }
+     .third-line {
+      font-family: "Trebuchet MS",Arial,sans-serif;
+      color: white;
+      
+      padding: 5px;
+    }
+
+    .second-line:hover {
+      color: black;
+    }
+      .first-line:hover {
+      color: black;
+    }
+      .third-line:hover {
+      color: black;
+    }
+    .third-line:active {
+      color: white;
+    }
+    .large-text {
+      font-size: 130px;
+      color: white;
+      font-style: bold;
+    }
+
+
+  </style>
+</head>
+<center>
+<body>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="first-line">
+    how much longer
+  </div>
+
+  <div class="third-line">
+    is my life?
+  </div>
+  <center>
+  <div class="second-line">
+    a brief night...
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script>
+    $('.third-line').click(function () {
+      $(this).toggleClass('large-text');
+    });
+  </script>
+</body>

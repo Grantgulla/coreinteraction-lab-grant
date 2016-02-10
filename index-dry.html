@@ -1,0 +1,156 @@
+<!doctype html>
+
+<head>
+  <style>
+
+.second-line {
+ width: 730px;
+ height: 133px;
+ line-height: 0px;
+ color: transparent;
+ font-size: 50px;
+ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+ text-transform: uppercase;
+ -webkit-transition: all 8s ease;
+ -moz-transition: all 8s ease;
+ -o-transition: all 8s ease;
+}
+ 
+.second-line:hover {
+ line-height: 133px;
+ color: #575858;
+}
+ 
+.second-line: img{
+ float: left;
+ margin: 0 15px;
+}
+
+
+.first-line {
+ width: 730px;
+ height: 133px;
+ line-height: 0px;
+ color: transparent;
+ font-size: 50px;
+ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+ text-transform: uppercase;
+ -webkit-transition: all 8s ease;
+ -moz-transition: all 8s ease;
+ -o-transition: all 8s ease;
+}
+ 
+.first-line:hover {
+ line-height: 133px;
+ color: #575858;
+}
+ 
+.first-line: img{
+ float: left;
+ margin: 0 15px;
+}
+
+.third-line {
+ width: 730px;
+ height: 133px;
+ line-height: 0px;
+ color: transparent;
+ font-size: 50px;
+ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+ text-transform: uppercase;
+ -webkit-transition: all 8s ease;
+ -moz-transition: all 8s ease;
+ -o-transition: all 8s ease;
+}
+ 
+.third-line:hover {
+ line-height: 133px;
+ color: #575858;
+}
+ 
+.third-line: img{
+ float: left;
+ margin: 0 15px;
+}
+
+    body {
+      margin: 0;
+      background-color: #DEB887;
+    }
+
+
+    .first-line {
+      font-family: "Copperplate Gothic Light";
+      color: #800000;
+      font-size:20px;
+      padding-top: 200px
+  
+  
+    }
+    .second-line {
+      font-family: "Copperplate Gothic Light";
+      color: #800000;
+      font-size:20px;
+    
+    }
+     .third-line {
+      font-family:"Copperplate Gothic Light";
+      color: #800000;
+      font-size: 20px;
+      
+      
+    }
+
+    .second-line:hover {
+      color: #D2691E;
+    }
+      .first-line:hover {
+      color: #DEB887;
+    }
+      .third-line:hover {
+      color: #DEB887;
+    }
+    .third-line:active {
+      color: white;
+}
+      .second-line:active {
+      color: white;
+}
+      .first-line:active {
+      color: red;
+    }
+    .large-text {
+      font-size: 200px;
+      color: black;
+      font-style: bold;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <center>
+  <div class="first-line">
+    How much longer
+  </div>
+
+  <div class="third-line">
+    Is my life?
+  </div>
+ 
+  <div class="second-line">
+    A brief night...
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script>
+     $('.second-line').click(function () {
+      $(this).toggleClass('large-text');
+    });
+     
+  </script>
+</body>

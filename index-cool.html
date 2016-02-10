@@ -1,0 +1,65 @@
+<!doctype html>
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      background-color: teal;
+    }
+    .first-line {
+      font-family: arial black;
+      color: white;
+  
+      padding: 5px;
+    }
+    .second-line {
+      font-family: times;
+      color: teal;
+      
+      padding: 5px;
+    }
+     .third-line {
+      font-family: arial black;
+      color: white;
+      
+      padding: 5px;
+    }
+
+    .second-line:hover {
+      color: gray;
+    }
+    .second-line:active {
+      color: white;
+    }
+    .large-text {
+      font-size: 130px;
+      font-family: times;
+      color: white;
+      font-style: italic;
+    }
+
+
+  </style>
+</head>
+<center>
+<body>
+  <div class="first-line">
+    How much longer
+  </div>
+
+  <div class="third-line">
+    Is my life?
+  </div>
+  <center>
+  <br> <br><br><br>
+  <div class="second-line">
+    A brief night...
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script>
+    $('.second-line').click(function () {
+      $(this).toggleClass('large-text');
+    });
+  </script>
+</body>

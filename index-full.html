@@ -1,0 +1,109 @@
+<!doctype html>
+
+<head>
+  <style>
+
+.second-line {
+ width: 730px;
+ height: 133px;
+ line-height: 0px;
+ color: transparent;
+ font-size: 50px;
+ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+ text-transform: uppercase;
+ -webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+}
+ 
+.second-line:hover {
+ line-height: 133px;
+ color: #575858;
+}
+ 
+.second-line: img{
+ float: left;
+ margin: 0 15px;
+}
+
+    body {
+      margin: 0;
+      background-color: white;
+    }
+
+
+    .first-line {
+      font-family: impact;
+      color: red;
+      font-size:10px;
+  
+  
+    }
+    .second-line {
+      font-family: impact;
+      color: red;
+      font-size:10px;
+    
+    }
+     .third-line {
+      font-family: impact;
+      color: red;
+      font-size: 10px;
+      
+      
+    }
+
+    .second-line:hover {
+      color: red;
+    }
+      .first-line:hover {
+      color: red;
+    }
+      .third-line:hover {
+      color: red;
+    }
+    .third-line:active {
+      color: red;
+}
+      .second-line:active {
+      color: red;
+}
+      .first-line:active {
+      color: red;
+    }
+    .large-text {
+      font-size: 200px;
+      color: black;
+      font-style: bold;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="first-line">
+    HOW MUCH LONGER
+  </div>
+
+  <div class="third-line">
+    IS MY LIFE?
+  </div>
+ 
+  <div class="second-line">
+    A BREIF NIGHT...
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script>
+    $('.third-line').click(function () {
+      $(this).toggleClass('large-text');
+    });
+     $('.second-line').click(function () {
+      $(this).toggleClass('large-text');
+    });
+      $('.first-line').click(function () {
+      $(this).toggleClass('large-text');
+    });
+  </script>
+</body>
