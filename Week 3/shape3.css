@@ -1,0 +1,36 @@
+.rectangle{
+	height: 80px;
+	width: 200px;
+	background-color: yellow;
+	position:fixed;
+	top: 80px;
+	
+}
+
+.square1 {
+	height: 200px;
+	width: 200px;
+	background-color: lightblue;
+	position: relative;
+}
+
+.square2 {
+	height: 200px;
+	width: 200px;
+	background-color: lightblue;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+
+}
+
+.square3 {
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	position: absolute;
+	top: 15px;
+	left:15px;
+}
+
+

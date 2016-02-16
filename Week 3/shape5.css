@@ -1,0 +1,85 @@
+.square1 {
+	height: 500px;
+	width: 300px;
+	background-color: teal;
+	position: absolute;
+	right:10px;
+
+}
+
+.rectangle1 {
+	height: 30px;
+	width: 270px;
+	background-color: pink;
+	left: 50px;
+	margin: 20px;
+}
+
+.rectangle2 {
+height: 30px;
+width: 270px;
+background-color: pink;
+margin-left: 30px;
+
+}
+
+.rectangle3 {
+height: 30px;
+width: 270px;
+background-color: pink;
+left: 50px;
+margin: 20px;
+
+	
+}
+
+.rectangle4 {
+height: 30px;
+width: 270px;
+background-color: pink;
+left: 50px;
+margin: 20px;
+
+}
+
+.rectangle5 {
+height: 30px;
+width: 270px;
+background-color: pink;
+margin-left: 30px;
+
+}
+
+.rectangle6 {
+height: 30px;
+width: 270px;
+background-color: pink;
+left: 50px;
+margin: 20px;
+
+}
+
+.tealrect{
+height: 100px;
+width: 270px;
+background-color: white;
+margin: 15px;
+margin-top: 80px;
+}
+
+.oval{
+	height: 50px;
+	width: 80px;
+	border-radius: 100%;
+	background-color: pink;
+	margin-left: 110px;
+	position: fixed;
+	top: 410px;
+	
+}
+
+
+}
+
+
+	

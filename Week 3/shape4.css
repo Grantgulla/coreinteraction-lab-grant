@@ -1,0 +1,94 @@
+.square1 {
+	height: 400px;
+	width: 200px;
+	background-color: purple;
+	position: absolute;
+}
+
+.square2 {
+	height: 370px;
+	width: 200px;
+	background-color: lightgreen;
+	position: absolute;
+	left: 150px;
+	top: 20px;
+
+}
+
+.square4 {
+	height: 400px;
+	width: 200px;
+	background-color: purple;
+	position: absolute;
+	top: 450px;
+}
+
+.rectangle {
+	position: absolute;
+	background-color: tan;
+	width: 180px;
+	height: 150px;
+	top: 9px;
+	left: 9px;
+}
+
+.smallsquare1{
+	position: absolute;
+	background-color: brown;
+	width: 30px;
+	height: 30px;
+	top:2%;
+	left:2%;
+
+}
+
+.smallsquare2{
+	position: absolute;
+	background-color: brown;
+	width: 30px;
+	height: 30px;
+	left:25%;
+
+}
+
+.smallsquare3{
+	position: absolute;
+	background-color: brown;
+	width: 30px;
+	height: 30px;
+	top:2%;
+	left:50%;
+
+}
+
+.smallsquare4{
+	position: absolute;
+	background-color: brown;
+	width: 30px;
+	height: 30px;
+	top:25%;
+	left:2%;
+
+}
+
+.smallsquare5{
+	position: absolute;
+	background-color: brown;
+	width: 30px;
+	height: 30px;
+	top:25%;
+	left:50%;
+
+}
+
+.smallsquare6{
+	position: absolute;
+	background-color: brown;
+	width: 30px;
+	height: 30px;
+	top:25%;
+	left:25%;
+
+}
+
+	

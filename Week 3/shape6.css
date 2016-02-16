@@ -1,0 +1,76 @@
+
+.square1 {
+	height: 500px;
+	width: 650px;
+	background-color: salmon;
+	position: absolute;
+	right:0px;
+	top: 0px;
+
+}
+
+.square2 {
+	height: 500px;
+	width: 650px;
+	background-color: pink;
+	position: absolute;
+	left:0px;
+	top: 0px;
+
+}
+
+.square3 {
+	height: 500px;
+	width: 1300px;
+	background-color: teal;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 500px;
+	overflow: scroll;
+
+}
+
+.centersquare{
+	height: 200px;
+	width: 200px;
+	background-color: yellow;
+	position: absolute;
+	left:550px;
+	margin-top:150px;
+	opacity: 20%
+}
+
+.circle1{
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	background-color: yellow;
+	position: absolute;
+	top:200px;
+	left: 525px;
+}
+
+.circle2{
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	background-color: yellow;
+	position: absolute;
+	top:200px;
+	left: 625px;
+
+}
+
+.circle3{
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	background-color: yellow;
+	position: absolute;
+	top:200px;
+	left: 725px;
+}
+
+
+	
