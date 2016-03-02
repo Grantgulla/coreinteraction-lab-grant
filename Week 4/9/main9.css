@@ -1,0 +1,8 @@
+.rect1{
+	background-color: lightblue;
+	width: 1225px;
+	height: 600px;
+	position: fixed;
+	top: 20px;
+	left:20px;
+}

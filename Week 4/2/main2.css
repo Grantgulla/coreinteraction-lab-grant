@@ -1,0 +1,46 @@
+.rect1{
+	background-color: lightblue;
+	width: 250px;
+	height: 75px;
+	position: relative;
+	margin: 5px;
+	
+}
+
+.rect2{
+	background-color: lightblue;
+	width: 250px;
+	height: 75px;
+	position: relative;
+	margin-left: 50px;
+	top: 30px;
+
+	
+}
+
+.rect3{
+	background-color: lightblue;
+	width: 250px;
+	height: 75px;
+	position: relative;
+	margin: 5px;
+
+}
+
+.rect4{
+	background-color: lightblue;
+	width: 250px;
+	height: 75px;
+	position: relative;
+	margin: 5px;
+	margin-left: 50px;
+	top: 30px;
+}
+
+.rect5{
+	background-color: lightblue;
+	width: 250px;
+	height: 75px;
+	position: relative;
+	margin: 5px;
+}

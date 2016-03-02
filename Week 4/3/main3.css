@@ -1,0 +1,19 @@
+.rect1{
+	background-color: blue;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	margin-bottom: 20px;
+
+	
+}
+
+.rect2{
+	background-color: yellow;
+	width: 73px;
+	height: 75px;
+	margin-left: 227px;
+	position: absolute;
+
+	
+}

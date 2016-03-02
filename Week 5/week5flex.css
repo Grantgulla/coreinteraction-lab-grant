@@ -1,0 +1,182 @@
+body {
+    background: black;
+    margin-top: 150px;
+    margin-left: 75px;
+   
+}
+
+.title{
+    color: white;
+    float: left;
+    font-family: Papyrus,fantasy;
+    font-size: 14px;
+
+}
+
+.description{
+    color: white;
+    font-family: helvetica;
+    font-size: 12px;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+
+.flex-container div {
+  margin: 8px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.one{
+	height: 400px;
+	width: 20px;
+    opacity: .5;
+}
+
+.one:hover{
+    width: 500px;
+    opacity: 1;
+    position: relative;
+}
+
+.two {
+	height: 400px;
+    width: 30px;
+    opacity: .5;
+   
+}
+
+.two:hover{
+    width: 500px;
+    opacity: 1;
+    position: relative;
+}
+
+.three{
+    height: 400px;
+    width: 40px;
+    opacity: .5;
+}
+
+.three:hover{
+   width: 500px;
+    opacity: 1;
+    position: relative;
+}
+
+
+.four{
+    height: 400px;
+    width: 50px;
+     opacity: .5;
+
+}
+
+.four:hover{
+    width: 500px;
+    opacity: 1;
+    position: relative;
+}
+
+
+.five{
+    height: 400px;
+    width: 60px;
+    opacity: .5;
+
+}
+
+.five:hover{
+    width: 500px;
+    opacity: 1;
+   position: relative;
+}
+
+
+.six{
+	height: 400px;
+    width: 80px;
+    opacity: .5;
+}
+
+.six:hover{
+    width: 500px;
+    opacity: 1;
+    position: relative;
+}
+
+.seven{
+	height: 400px;
+    width: 50px;
+    opacity: .5;
+}
+
+.seven:hover{
+    width: 500px;
+    opacity: 1;
+    position: relative;
+}
+
+.eight{
+	height: 400px;
+    width: 30px;
+    opacity: .5;
+
+}
+
+.eight:hover{
+    width: 500px;
+    opacity: 1;
+    position: relative;
+}
+
+.nine{
+	height: 400px;
+    width: 20px;
+    opacity: .5;   
+}
+
+.nine:hover{
+    width: 500px;
+    opacity: 1;
+    position: relative;
+}
+
+
+.ten{
+	height: 400px;
+    width: 20px;
+    opacity: .5;   
+}
+
+.ten:hover{
+    width: 500px;
+    opacity: 1;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
