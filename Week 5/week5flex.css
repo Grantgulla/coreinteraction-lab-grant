@@ -1,24 +1,35 @@
 body {
     background: black;
-    margin-top: 150px;
-    margin-left: 75px;
+    margin-top: 100px;
+    margin-left: 50px;
    
 }
 
 .title{
     color: white;
     float: left;
-    font-family: Papyrus,fantasy;
-    font-size: 14px;
+    font-family: didot;
+    font-style: bold;
+    font-size: 18px;
+    position: relative;
 
 }
 
 .description{
     color: white;
-    font-family: helvetica;
+    font-family: didot;
+    font-style: italic;
     font-size: 12px;
+    position: relative;
+    text-align: right;
 
 }
+
+.slider{
+    margin-top: 100px;
+    width: 120px;
+}
+
 
 .flex-container {
   display: flex;
