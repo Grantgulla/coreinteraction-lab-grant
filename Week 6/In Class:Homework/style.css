@@ -1,0 +1,45 @@
+body
+{
+	padding:0px; margin:0px;
+	text-align:center;
+	background-color: black;
+}
+
+h1
+{
+	background-color: white;
+	-webkit-background-clip: text;
+	color: transparent;
+	margin:0px auto;
+	margin-top:20px;
+	font-family: Helvetica, Arial;
+	font-weight:bold;
+	font-size:66px;
+	padding:20px;
+	width:700px;
+	text-align:center;
+}
+
+.description{
+    color: white;
+    font-family: didot;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+
+}
+
+.picture{
+     opacity: .5;
+
+}
+
+.picture:hover{
+    opacity: 1;
+}
+
+
+
+
+
